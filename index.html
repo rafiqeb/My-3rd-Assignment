@@ -82,7 +82,9 @@
 
         <!-- design section -->
         <section class="mt-20 relative">
-            <img class="hidden lg:block absolute mt-4 ml-4" src="images/Vector.png" alt="">
+            <div class="absolute hidden lg:block mt-4 ml-4 border-dashed border-2 w-28 h-16 border-indigo-300">
+                <img class="w-full mt-4" src="images/Vector.png" alt="">
+            </div>
             <div class="flex flex-col lg:flex-row p-3 lg:p-10 gap-10 items-center">
                 <!-- design content -->
                 <div class="space-y-8">
@@ -166,7 +168,7 @@
         <section class="mt-20 bg-white">
             <!-- portfolio content -->
             <div class="flex flex-col items-center gap-4 p-3">
-                <button class="flex gap-4 bg-white px-4 py-2 rounded-3xl font-bold items-center">
+                <button class="flex gap-4 bg-[#f3eeee] px-4 py-2 rounded-3xl font-bold items-center">
                     <i class="fa-solid fa-arrow-right-long"></i>
                     Explore our Latest works
                 </button>
@@ -177,7 +179,7 @@
 
             <!-- portfolio image -->
             <div class="flex flex-col lg:flex-row gap-8 p-5">
-                <div class="flex flex-col lg:flex-row items-center gap-8 p-2">
+                <div class="flex flex-col lg:flex-row items-center gap-8 p-2 border-solid border-2 rounded-2xl">
                     <img class="w-full lg:w-4/5" src="images/img1.png" alt="">
                     <div class="space-y-4">
                         <h5 class="font-bold text-xl">Commercial</h5>
@@ -188,11 +190,11 @@
                         </button>
                     </div>
                 </div>
-                <img class="lg:w-1/2" src="images/img2.png" alt="">
+                <img class="lg:w-1/2 border-solid border-2 rounded-2xl p-2" src="images/img2.png" alt="">
             </div>
             <div class="flex flex-col lg:flex-row gap-10 p-5">
-                <img class="lg:w-1/2" src="images/img3.png" alt="">
-                <div class="flex flex-col lg:flex-row items-center gap-8">
+                <img class="lg:w-1/2 border-solid border-2 rounded-2xl p-2" src="images/img3.png" alt="">
+                <div class="flex flex-col lg:flex-row items-center gap-8 border-solid border-2 rounded-2xl p-2">
                     <img class="w-full h-full" src="images/img4.png" alt="">
                     <div class="space-y-4">
                         <h5 class="font-bold text-xl">Commercial</h5>
@@ -203,13 +205,51 @@
                         </button>
                     </div>
                 </div>
-                <img class="lg:w-1/2" src="images/img5.png" alt="">
-                <img class="lg:hidden" src="images/img3.png" alt="">
+                <img class="lg:w-1/2 border-solid border-2 rounded-2xl p-2" src="images/img5.png" alt="">
+                <img class="lg:hidden border-solid border-2 rounded-2xl p-2" src="images/img3.png" alt="">
             </div>
         </section>
 
+        <!-- architect section -->
+        <section class="">
+            <!-- architect content -->
+            <div class="flex flex-col items-center gap-4 p-3 mt-16">
+                <button class="flex gap-4 bg-white px-4 py-2 rounded-3xl font-bold items-center">
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                    Exclusive Architecture
+                </button>
+                <h3 class="text-2xl lg:text-4xl font-extrabold text-center">The Architect of Barn House</h3>
+                <p class="text-center max-w-2xl">Barn-style homes are designed to resemble traditional barns while incorporating contemporary elements. These homes pay homage to the rustic aesthetics of barns but with a modern twist.</p>
+            </div>
+
+            <!-- architect image -->
+             <div class="flex flex-col lg:flex-row gap-4 p-3 items-center justify-center">
+                <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
+                    <img class="rounded-2xl " src="images/barn1.jpg" alt="">
+                    <button class="btn bg-slate-300">
+                        <h5>More info</h5>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+                <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
+                    <img class="rounded-2xl lg:h-[256px] w-full" src="images/barn2.jpg" alt="">
+                    <button class="btn bg-slate-300">
+                        <h5>More info</h5>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+                <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
+                    <img class="rounded-2xl lg:h-[256px]" src="images/barn3.webp" alt="">
+                    <button class="btn bg-slate-300">
+                        <h5>More info</h5>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </button>
+                </div>
+             </div>
+        </section>
+
         <!-- project section -->
-        <section class="bg-[url(../images/bg.jpg)] bg-no-repeat bg-center bg-cover p-3 mt-10">
+        <section class="bg-[url(./images/bg.jpg)] bg-no-repeat bg-center bg-cover p-3">
             <!-- project content -->
             <div class="flex flex-col items-center gap-4 mb-10 mt-20">
                 <button class="flex gap-4 bg-white px-4 py-2 rounded-3xl font-bold items-center">
