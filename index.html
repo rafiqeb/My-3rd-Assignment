@@ -24,6 +24,11 @@
         .manrope {
             font-family: "Manrope", sans-serif;
         }
+        .background{
+            background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 </head>
 
@@ -226,21 +231,24 @@
              <div class="flex flex-col lg:flex-row gap-4 p-3 items-center justify-center">
                 <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
                     <img class="rounded-2xl " src="images/barn1.jpg" alt="">
-                    <button class="btn bg-slate-300">
+                    <p>There are several styles of housebarns. One style is a building where the barn portion shares a wall with the house portion.</p>
+                    <button class="btn bg-[#d3fda4]">
                         <h5>More info</h5>
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                 </div>
                 <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
                     <img class="rounded-2xl lg:h-[256px] w-full" src="images/barn2.jpg" alt="">
-                    <button class="btn bg-slate-300">
+                    <p>Another style features the barn as the lower portion of the building and the house as the second floor such as the Black Forest-style house.</p>
+                    <button class="btn bg-[#d3fda4]">
                         <h5>More info</h5>
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
                 </div>
                 <div class="lg:max-w-[400px] border-solid border-2 rounded-2xl p-2 space-y-6">
                     <img class="rounded-2xl lg:h-[256px]" src="images/barn3.webp" alt="">
-                    <button class="btn bg-slate-300">
+                    <p>Housebarns were built beginning in prehistoric times after people discovered that the body heat of animals helps to warm human living areas.</p>
+                    <button class="btn bg-[#d3fda4]">
                         <h5>More info</h5>
                         <i class="fa-solid fa-angle-down"></i>
                     </button>
@@ -249,7 +257,7 @@
         </section>
 
         <!-- project section -->
-        <section class="bg-[url('/images/bg.jpg')] bg-no-repeat bg-center bg-cover p-3">
+        <section class="background p-3">
             <!-- project content -->
             <div class="flex flex-col items-center gap-4 mb-10 mt-20">
                 <button class="flex gap-4 bg-white px-4 py-2 rounded-3xl font-bold items-center">
